@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: radek-tichacek/azlobit:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/azlobit:latest
